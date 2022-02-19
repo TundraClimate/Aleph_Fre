@@ -8,29 +8,29 @@
       <prob level="1">0.0</prob>
       <prob level="2">0.0</prob>
       <prob level="3">0.0</prob>
-      <prob level="4">0.4</prob>
-      <prob level="5">0.4</prob>
+      <prob level="4">0.2</prob>
+      <prob level="5">0.2</prob>
     </workProb>
     <workProb type="W">
-      <prob level="1">0.0</prob>
-      <prob level="2">0.0</prob>
-      <prob level="3">0.0</prob>
-      <prob level="4">0.5</prob>
-      <prob level="5">0.5</prob>
-    </workProb>
-    <workProb type="B">
       <prob level="1">0.0</prob>
       <prob level="2">0.0</prob>
       <prob level="3">0.0</prob>
       <prob level="4">0.3</prob>
       <prob level="5">0.3</prob>
     </workProb>
+    <workProb type="B">
+      <prob level="1">0.0</prob>
+      <prob level="2">0.0</prob>
+      <prob level="3">0.0</prob>
+      <prob level="4">0.0</prob>
+      <prob level="5">0.0</prob>
+    </workProb>
     <workProb type="P">
       <prob level="1">0</prob>
       <prob level="2">0</prob>
-      <prob level="3">0.6</prob>
-      <prob level="4">0.6</prob>
-      <prob level="5">0.6</prob>
+      <prob level="3">0.4</prob>
+      <prob level="4">0.4</prob>
+      <prob level="5">0.4</prob>
     </workProb>
     <escapeable>false</escapeable>
     <workCooltime>10</workCooltime>
