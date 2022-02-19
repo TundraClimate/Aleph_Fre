@@ -38,7 +38,7 @@
 
     <animation>Attack1</animation>
 
-    <damage type="B" min="40" max="46">
+    <damage type="B" min="80" max="120">
       <soundInfo type="damage">creature/Freischutz/Freischutz_Shot</soundInfo>
     </damage>
     <range>150</range>
