@@ -39,7 +39,7 @@
       <cube>26</cube>
       <cube>33</cube>
     </feelingStateCubeBounds>
-    <workDamage type="B" min="4" max="5" />
+    <workDamage type="B" min="6" max="8" />
     <workSpeed>0.30</workSpeed>
     <specialDamage>
       <damage id="1" type="R" min="10" max="14" />
