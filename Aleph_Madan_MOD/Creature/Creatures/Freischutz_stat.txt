@@ -35,9 +35,9 @@
     <escapeable>false</escapeable>
     <workCooltime>10</workCooltime>
     <feelingStateCubeBounds>
-      <cube>6</cube>
-      <cube>11</cube>
-      <cube>18</cube>
+      <cube>16</cube>
+      <cube>26</cube>
+      <cube>33</cube>
     </feelingStateCubeBounds>
     <workDamage type="B" min="4" max="5" />
     <workSpeed>0.30</workSpeed>
