@@ -28,9 +28,9 @@
     <workProb type="P">
       <prob level="1">0</prob>
       <prob level="2">0</prob>
-      <prob level="3">0.4</prob>
-      <prob level="4">0.4</prob>
-      <prob level="5">0.4</prob>
+      <prob level="3">0.5</prob>
+      <prob level="4">0.5</prob>
+      <prob level="5">0.5</prob>
     </workProb>
     <escapeable>false</escapeable>
     <workCooltime>10</workCooltime>
@@ -39,7 +39,7 @@
       <cube>26</cube>
       <cube>33</cube>
     </feelingStateCubeBounds>
-    <workDamage type="B" min="6" max="8" />
+    <workDamage type="B" min="5" max="6" />
     <workSpeed>0.30</workSpeed>
     <specialDamage>
       <damage id="1" type="R" min="10" max="14" />
