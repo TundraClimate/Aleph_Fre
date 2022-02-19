@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<equipment_list>
+<equipment id="300103" type="armor">
+
+    <name>Freischutz_weapon_name</name>
+    <no>Freischutz_weapon_no</no>
+    <desc>Freischutz_weapon_desc</desc>
+    <specialDesc>Freischutz_armor_specialDesc</specialDesc>
+
+    <require type="R">3</require>
+    <require type="P">5</require>
+
+    <armorId>55</armorId>
+
+    <defense>
+      <defenseElement type="R">0.3</defenseElement>
+      <defenseElement type="W">0.3</defenseElement>
+      <defenseElement type="B">0.3</defenseElement>
+      <defenseElement type="P">1.5</defenseElement>
+    </defense>
+
+    <grade>5</grade>
+    <maxNum>5</maxNum>
+
+    <!--<script>FreischutzArmor</script>-->
+
+  </equipment>
+  <equipment id="200103" type="weapon">
+    <name>Freischutz_weapon_name</name>
+    <no>Freischutz_weapon_no</no>
+    <desc>Freischutz_weapon_desc</desc>
+
+    <weaponClassType>special</weaponClassType>
+    <specialWeaponAnim>FreischutzWeapon</specialWeaponAnim>
+    <sprite>Freischutz</sprite>
+
+    <require type="B">5</require>
+
+    <animation>Attack1</animation>
+
+    <damage type="B" min="40" max="46">
+      <soundInfo type="damage">creature/Freischutz/Freischutz_Shot</soundInfo>
+    </damage>
+    <range>150</range>
+    <splash type="penetration" iff ="false"/>
+
+    <script>FreischutzWeapon</script>
+    <maxNum>5</maxNum>
+
+    <attackSpeed>2.0</attackSpeed>
+    <grade>5</grade>
+  </equipment>
+</equipment_list>
