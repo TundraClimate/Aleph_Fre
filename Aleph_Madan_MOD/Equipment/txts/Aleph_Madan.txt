@@ -16,7 +16,7 @@
       <defenseElement type="R">0.3</defenseElement>
       <defenseElement type="W">0.3</defenseElement>
       <defenseElement type="B">0.3</defenseElement>
-      <defenseElement type="P">1.5</defenseElement>
+      <defenseElement type="P">1.0</defenseElement>
     </defense>
 
     <grade>5</grade>
@@ -47,7 +47,22 @@
     <script>FreischutzWeapon</script>
     <maxNum>5</maxNum>
 
-    <attackSpeed>2.0</attackSpeed>
+    <attackSpeed>1.0</attackSpeed>
     <grade>5</grade>
+  </equipment>
+
+  <equipment id="400103" type="special">
+    <name>Freischutz_weapon_name</name>
+    <desc>Freischutz_gift_Desc</desc>
+    <attachPos>mouth</attachPos>
+    <attachType>replace</attachType>
+    <bonus>
+      <hp>-10</hp>
+      <mental>-10</mental>
+      <movement>30</movement>
+      <attackSpeed>30</attackSpeed>
+    </bonus>
+    <sprite>Mouth_0_4</sprite>
+    <script>FreischutzGift</script>
   </equipment>
 </equipment_list>
